@@ -1,8 +1,8 @@
 This code book contains the following data fields in tidy_data.txt file:
 
 ## Identifiers  
-*subject* - The ID of the test subjects  
-*activity* - The type of activity performed when the corresponding measurements were taken
+*subject* - the subjects' ID  
+*activity* - what activity was performed when the corresponding measurements were taken  
 
 
 ## Measurements
@@ -87,10 +87,10 @@ FrequencyBodyGyroscopeJerkMagnitudeSTD               <br/>
 FrequencyBodyGyroscopeJerkMagnitudeMeanFrequency     <br/>
 
 
-Activity Labels  
-*WALKING (value 1)*: subject was walking during the test  
-*WALKING_UPSTAIRS (value 2)*: subject was walking up a staircase during the test  
-*WALKING_DOWNSTAIRS (value 3)*: subject was walking down a staircase during the test  
-*SITTING (value 4)*: subject was sitting during the test  
-*STANDING (value 5)*: subject was standing during the test  
-*LAYING (value 6)*: subject was laying down during the test  
+## Activity Labels  
+*WALKING (value 1)*: test subject was walking  
+*WALKING_UPSTAIRS (value 2)*: test subject was walking up a staircase 
+*WALKING_DOWNSTAIRS (value 3)*: test subject was walking down a staircase
+*SITTING (value 4)*: test subject was sitting 
+*STANDING (value 5)*: test subject was standing  
+*LAYING (value 6)*: test subject was laying down  
